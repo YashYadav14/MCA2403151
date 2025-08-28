@@ -33,6 +33,6 @@ pipeline {
     post {
         always {
             echo "Pipeline finished. BUILD_NUMBER=${env.BUILD_NUMBER}, BRANCH=${env.BRANCH_NAME}"
-        }
-    }
+        }
+    }
 }
